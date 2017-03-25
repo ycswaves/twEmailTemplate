@@ -1,0 +1,41 @@
+$letter-width: 600px;
+$normal-font-size: 14px;
+$smaller-font-size: 12px;
+
+.table-body {
+  font-family: 'Open Sans', 'Segoe UI', Segoe, 'Segoe WP', 'Helvetica Neue', 'Roboto', sans-serif;
+  width: $letter-width;
+  font-size: $normal-font-size;
+}
+
+.tw-logo {
+  width: 200px;
+}
+
+.banner {
+  width: $letter-width;
+}
+
+.rsvp {
+  font-weight: 600;
+  font-size: $smaller-font-size;
+}
+
+.about {
+  background-color: #12858b;
+}
+
+.about-text {
+  color: white;
+  width: 70%;
+  font-size: $smaller-font-size;
+}
+
+.about-image {
+  width: 30%;
+  text-align:center;
+
+  &__avatar {
+    width: 150px; 
+  }
+}

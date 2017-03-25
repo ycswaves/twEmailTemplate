@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Staffing Update</title>
+    <link rel="stylesheet" href="staffingUpdate.css">
+  </head>
+  <body>
+    <table class="table-body" border="0" cellspacing="0" cellpadding="0" >
+      <tr>
+        <td class="overview"><h2>{{date}}</h2></td>
+      </tr>
+      <tr>
+        <td class="overview">
+          <span class="stats-circle">
+            <span class="stats-circle__figure">{{utilisation}}</span>
+            <span class="stats-circle__caption">Utilisation</span>
+          </span>
+          <span class="stats-circle">
+            <span class="stats-circle__figure">{{headcount}}</span>
+            <span class="stats-circle__caption">Headcount</span>
+          </span>
+          <span class="stats-circle">
+            <span class="stats-circle__figure">{{onBeach}}</span>
+            <span class="stats-circle__caption">On the Beach</span>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td class="overview">
+          <p class="overview__greeting">Hello {{region}},</p>
+          <p>{{{overview}}}</p>
+          <p class="legend-row">
+            <span class="legend legend-upcoming">Upcoming</span>
+            <span class="legend legend-current">Current</span>
+            <span class="legend legend-ramping">Ramping Down</span>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    {{#projects}}
+    <table border="0" cellspacing="0" cellpadding="0" class="table-body project">
+      <tr>
+        <td class="project__divider"></td>
+      </tr>
+      <tr>
+        <td class="project-header project-header-{{status}}">
+          <span class="project-header__title">{{title}}</span><span class="project-header__updated-by"> - Update by {{updatedBy}}</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="project__body">
+          <p><span class="project__label">No. of People:&nbsp;</span>{{numOfPeople}}</p>
+          <p><span class="project__label">Location:&nbsp;</span>{{location}}</p>
+          <p><span class="project__label">Team Roles:&nbsp;</span>{{openRoles}}</p>
+          <p>{{{description}}}</p>
+        </td>
+      </tr>
+    </table>
+    {{/projects}}
+  </body>
+</html>

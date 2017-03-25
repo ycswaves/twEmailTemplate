@@ -1,0 +1,37 @@
+{
+  "date": "September 2016",
+  "utilisation": "78%",
+  "headcount": 77,
+  "onBeach": 17,
+  "region": "Singapore",
+  "overview": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo modi at perspiciatis quam ullam, fuga. Dolores odit dolor iste saepe, quae quidem veritatis animi perferendis sit, nisi quibusdam, placeat. Eaque quaerat fugiat expedita est culpa, illo neque ea natus. Quae perspiciatis dolor rem praesentium eos. Debitis odio voluptatem ipsam, pariatur iste fuga neque nesciunt, aliquid, nisi, sint optio adipisci itaque maiores. Laudantium id iste accusantium, numquam, voluptates earum nisi optio blanditiis quisquam exercitationem veniam provident! Esse unde beatae ipsa, minima adipisci dolorum, inventore repellendus quaerat excepturi eligendi illum atque perspiciatis delectus amet, eos nisi? Cum at laboriosam, modi quam eveniet.",
+  "projects": [
+    {
+      "status": "ramping",
+      "title": "SpiritAsia",
+      "updatedBy": "Alice",
+      "numOfPeople": 3,
+      "location": "One @ Changi City",
+      "openRoles": "N/A, Team most likely getting smaller",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo modi at perspiciatis quam ullam, fuga. Dolores odit dolor iste saepe, quae quidem veritatis animi perferendis sit, nisi quibusdam, placeat. Eaque quaerat fugiat expedita est culpa, illo neque ea natus. Quae perspiciatis dolor rem praesentium eos. Debitis odio voluptatem ipsam, pariatur iste fuga neque nesciunt, aliquid, nisi, sint optio adipisci itaque maiores. Laudantium id iste accusantium, numquam, voluptates earum nisi optio blanditiis quisquam exercitationem veniam provident! Esse unde beatae ipsa, minima adipisci dolorum, inventore repellendus quaerat excepturi eligendi illum atque perspiciatis delectus amet, eos nisi? Cum at laboriosam, modi quam eveniet."
+    },
+    {
+      "status": "upcoming",
+      "title": "IDA Government Digital Services (GDS) – Multiple Projects",
+      "updatedBy": "Bob",
+      "numOfPeople": "18 to start, expecting 50 by Dec 2016; 200 by 2019",
+      "location": "IDA",
+      "openRoles": "PM, BA, QA, Dev, DevOps, Security, UX, Data Specialists",
+      "description": "The award of this Request for Proposal (RFP) is delayed but should be awarded anytime now. This is a 3 years contract with an option to extend for another 3 years. GDS is a new government units set up with a start-up and agile culture from the start. The scope of work will include co-sourcing on Smart Nation projects like the Moment of Life, PaaS, Emerging Technologies etc. It will also include MOM’s WINS Phase 2 project. Singapore is looking into building a Smart Nation Platform."
+    },
+    {
+      "status": "current",
+      "title": "SIAM (Thailand)",
+      "updatedBy": "Chris",
+      "numOfPeople": 4,
+      "location": "Bangkok",
+      "openRoles": "TBC. Possible openings for Developer(s) with #madjavaskillz, DevOps Champion, Business Analyst, Quality Analyst",
+      "description": "The MVP for Registration for PromptPay – the Thai-government-mandated inter-bank fast transfer service – is live! But the enhancement requests have only just begun... so many, in fact, that our backlog is having to be relocated just to fit all the cards on the wall. This poses a problem, not least because we only have one week of the current engagement left, and Salah is on his own again from Monday... it's not unreasonable to suspect that we might not get everything done! That said, we are hearing rumblings of an extension, which John is investigating. Watch this space for that and also news of future opportunities."
+    }
+  ]
+}

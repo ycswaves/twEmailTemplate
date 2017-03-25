@@ -1,0 +1,28 @@
+.table-body {
+  font-family: 'Open Sans', 'Segoe UI', Segoe, 'Segoe WP', 'Helvetica Neue', 'Roboto', sans-serif;
+  width: 600px;
+  font-size: 14px; }
+
+.tw-logo {
+  width: 200px; }
+
+.banner {
+  width: 600px; }
+
+.rsvp {
+  font-weight: 600;
+  font-size: 12px; }
+
+.about {
+  background-color: #12858b; }
+
+.about-text {
+  color: white;
+  width: 70%;
+  font-size: 12px; }
+
+.about-image {
+  width: 30%;
+  text-align: center; }
+  .about-image__avatar {
+    width: 150px; }

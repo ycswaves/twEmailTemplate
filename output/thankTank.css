@@ -1,0 +1,39 @@
+.table-body {
+  font-family: 'Open Sans', 'Segoe UI', Segoe, 'Segoe WP', 'Helvetica Neue', 'Roboto', sans-serif;
+  width: 600px;
+  font-size: 14px;
+  background-color: #eee;
+  padding: 60px; }
+
+.main {
+  background-color: white;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px; }
+
+.quote-icon {
+  display: block;
+  border: 0px;
+  max-width: 600px; }
+
+.quote-text {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  width: 400px;
+  margin: auto 80px;
+  font-size: 18px; }
+
+.voucher {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.link {
+  text-decoration: none;
+  color: #ff9900; }
+
+.prize-img {
+  width: 160px;
+  height: 100px; }
